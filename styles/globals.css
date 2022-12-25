@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base{
+    @font-face {
+        font-family: 'Shabnam-Bold-FD';
+        src: url('../assets/fonts/shabnam-font-v5.0.1/Farsi-Digits/Shabnam-Bold-FD.woff');
+    }
+    @font-face {
+        font-family: 'Shabnam-FD';
+        src: url('../assets/fonts/shabnam-font-v5.0.1/Farsi-Digits/Shabnam-FD.woff');
+    }
+    @font-face {
+        font-family: 'Shabnam-Light-FD';
+        src: url('../assets/fonts/shabnam-font-v5.0.1/Farsi-Digits/Shabnam-Light-FD.woff');
+    }
+    @font-face {
+        font-family: 'Shabnam-Medium-FD';
+        src: url('../assets/fonts/shabnam-font-v5.0.1/Farsi-Digits/Shabnam-Medium-FD.woff');
+    }
+    @font-face {
+        font-family: 'Shabnam-Thin-FD';
+        src: url('../assets/fonts/shabnam-font-v5.0.1/Farsi-Digits/Shabnam-Thin-FD.woff');
+    }
+    
+}
