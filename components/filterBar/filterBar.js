@@ -9,26 +9,29 @@ import "swiper/css/pagination";
 import './styles.css'
 const FilterBar = () => {
     return (
-        <div className="h-8 mt-9 pr-6 w-full ">
+        <div className="h-8 mt-9 w-full ">
             <Swiper
                 dir="rtl"
                 freeMode={true}
                 slidesPerView={3.5}
                 breakpoints={{
                     440: {
-                      slidesPerView: 4,
-                      spaceBetween: 7,
+                        slidesPerView: 5,
+                        spaceBetween: 7,
+                        slidesOffsetAfter:0,
                     },
                     768: {
-                      slidesPerView: 8,
-                      spaceBetween: 7,
+                        slidesPerView: 8,
+                        spaceBetween: 7,
                     },
                     1024: {
-                      slidesPerView: 10,
-                      spaceBetween: 7,
+                        slidesPerView: 10,
+                        spaceBetween: 7,
                     },
-                  }}
+                }}
                 spaceBetween={7}
+                slidesOffsetAfter={-20}
+                slidesOffsetBefore={22}
                 modules={[FreeMode]}
                 className="mySwiper"
             >

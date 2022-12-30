@@ -1,0 +1,8 @@
+.mylist{
+    display: flex;
+    flex-direction: row;
+    min-height: 180px;
+}
+.Slide{
+   min-width: 120px;
+}

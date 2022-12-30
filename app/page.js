@@ -15,9 +15,10 @@ const Home = () => {
           <SearchBar />
         </section>
       </div>
-      <div className="flex">
+      <div className="flex ">
         <FilterBar />
       </div>
+
       <FoodSlider />
     </div>
   );
