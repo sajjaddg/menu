@@ -10,8 +10,8 @@ const FoodSlider = () => {
         </div>
         <span className="font-ShabnamBold text-xl">تخفیف های ويژه</span>
       </div>
-      <div dir="rtl" className="flex h-44">
-        <FoodItem/>
+      <div dir="rtl" className="flex h-44  space-x-3 ">
+        <FoodItem />
       </div>
     </div>
   );
