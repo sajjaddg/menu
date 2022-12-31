@@ -8,8 +8,9 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import './styles.css'
 const FilterBar = () => {
+   
     return (
-        <div className="h-8 mt-9 w-full ">
+        <div  className="h-8 mt-9 w-full ">
             <Swiper
                 dir="rtl"
                 freeMode={true}
@@ -18,7 +19,7 @@ const FilterBar = () => {
                     440: {
                         slidesPerView: 5,
                         spaceBetween: 7,
-                        slidesOffsetAfter:0,
+                        slidesOffsetAfter: 0,
                     },
                     768: {
                         slidesPerView: 8,
@@ -30,7 +31,7 @@ const FilterBar = () => {
                     },
                 }}
                 spaceBetween={7}
-                slidesOffsetAfter={-20}
+                slidesOffsetAfter={-10}
                 slidesOffsetBefore={22}
                 modules={[FreeMode]}
                 className="mySwiper"

@@ -36,9 +36,11 @@ const FoodSlider = () => {
           <SwiperSlide className="Slide" >
             <FoodItem />
           </SwiperSlide>
+          
           <SwiperSlide className="Slide">
             <FoodItem />
           </SwiperSlide >
+
           <SwiperSlide className="Slide">
             <FoodItem />
           </SwiperSlide >
